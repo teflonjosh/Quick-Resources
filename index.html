@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick Developer Resources</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png?20150111171555">
+<style>
+/* PAGE STRUCTURE */
+body {
+  background-color: #f0f1f1;
+  color: #210802;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 100%;
+  margin: 0;}
+table {
+  width: auto;
+  text-align: left;}
+th, td {
+  padding: 7px 7px 7px 7px;}
+th {
+  border-bottom: 2px solid #1111;
+  border-top: 1px solid rgb(4, 11, 93)}
+tr.even{
+  background-color:#dce0e4;}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }  
+Footer {
+  text-align: center;
+  background-color:rgb(55, 122, 145);
+  color: #f4f4f4;
+  max-width: auto;}  
+  .footer {
+  color:#f4f4f4}
+  .nav ul li {
+    display: inline-block;}
+#even {
+  display: block;
+  margin-left: 0px;
+  margin-right: 200px }
+/* Headings */
+.H1 { 
+    font-size: 36px;
+    font-weight: bold;}
+.H2 { 
+    font-size: 24px;
+    font-weight: bold;}
+.H3 {
+    font-size: 21px;
+    font-weight: bold;}  
+h3 {
+    font-style: italic;
+    text-align: center;
+    color: #1d0f0f; 
+    transition: transform .7s ease-in-out;}
+  h3:hover {
+    color: #370404;   
+    text-decoration: overline;
+    transform: rotate(180deg);}
+  H2 {
+  text-decoration: underline;}
+      H2:hover {
+      text-transform: uppercase;}
+  /* TEXT DECORATIONS */
+  hr {
+    color:#dce0e4;}  
+  a:hover {
+    font-size: 120%;}  
+
+  hr {
+    color:#dce0e4;}  
+  a:hover {
+    font-size: 120%;}  
+  .att {
+    font-size: xx-small;
+    font-style: italic;}  
+  img {
+  transition: transform .7s ease-in-out;}
+    img:hover {
+    transform: rotate(180deg)}
+/* FONTS AND COLORS */
+.cool-blue {
+    color: #2d5dcc; }
+.pink {
+    color: #d957d9; }
+.purple {
+    color: #9648ab; }
+.red  {
+    color:#da072c; }
+.candy {
+    color:#ff0800; }
+.gold {
+    color: #FFD700;}
+.yellow {
+    color: #FFFF00 }
+.salmon {
+    color: 	#FA8072}
+.lime {
+    color: #00FF00 }
+.springGreen {
+    color: #00FF7F}
+.green {
+    color: #008000}
+.olive {
+    color: #808000}
+.teal {
+    color: #008080}
+.turquoise {
+    color: #40E0D0}
+.blue {
+    color:#0000FF }
+.maroon {
+    color: #800000}
+.indigo {
+    color: #4B0082}
+.khaki {
+    color: #F0E68C }
+.gray {
+    color: #808080 }
+.darkSlate {
+    color: #2F4F4F }
+.black {
+    color: #000000}
+.serif {
+  font-family: serif; }
+.sanSerif {
+    font-family: sans-serif; }
+.mono {
+    font-family:monospace;}
+.fantasy {
+    font-family: fantasy;}
+.cursive {
+    font-family:cursive;}
+.guide {
+    text-decoration: line-through;}
+      .guide:hover {
+      text-decoration: none; }
+/* BUTTON */
+Button {
+	box-shadow: 5px #346d80;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ab6d6d;
+	border-radius:10px;
+	color:#03191f;
+    padding:5px 15px;}
+  Button:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;}   
+/* CSS FOR SCRIPT */ 
+.nav-header {
+  background-color:rgb(55, 122, 145);
+  text-align: center;
+  position: sticky;
+  max-width: auto;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: background-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;}
+.nav-header.nav-header-scrolled {
+  background-color: #f0f1f1;
+  color:black;}
+  .nav-header-scrolled:hover {
+    color:rgb(157, 157, 17);} 
+.nav {
+  align-items: center;
+  height: 65px;
+  width: auto;
+  padding: 10px 20px;}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  color: white;}
+.nav-item {
+  display: inline-block;
+  margin-right: 30px;}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;}
+.nav-header.nav-header-scrolled .nav-item a {
+  color: black; }
+.nav-header.nav-header-scrolled .nav-item a:hover {
+    color:rgb(55, 122, 145);
+  text-decoration: underline;} 
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;}
+.content {
+  position: relative;
+  background-color:rgb(55, 122, 145);
+  color: white;
+  width: auto;}
+  </style>       
+    </head>
+<body>
+  <section id="land">
+<!--HEADER -->
+    <header class="nav-header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="https://teflonjosh.github.io/ResourcePortfolio/" class="link">Home</a></li>
+          <li class="nav-item"><a href="#basic">HTML Basics</a></li>
+          <li class="nav-item"><a href="#tables">Tables</a></li>
+          <li class="nav-item"><a href="#media">Media</a></li>
+          <li class="nav-item"><a href="#css">CSS Basics</a></li>
+          <li class="nav-item"><a href="#template">Template</a></li>
+          <li class="nav-item"><a href="#sites">Developer Pages</a></li>
+        </ul>
+      </nav>
+    </header>
+<!-- MAIN CONTENT -->
+  <div class="content"><br>
+    <p>Welcome! Here are some very basic resources that can help you get started with web development!</p>
+      <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" loading="lazy">
+      </div> 
+    <div class="att">
+      <a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg" target="_blank"">W3C</a>, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>, via Wikimedia Commons</a>
+    <br><br>
+    </div>
+  </div>
+<div class="fade-in">
+<table class="center">
+  <section id="basic">
+    <thead>
+      <h3>Basic HTML Tags</h3>
+    </section>
+  <tr>
+    <th>&nbspTag Name&nbsp</th>
+    <th>&nbspSemantic Tag&nbsp</th>
+    <th>&nbspDescription&nbsp</th>
+  </tr>
+</thead>
+<tbody> 
+  <tr>
+    <tr class="even">
+    <td> DOCTYPE  </td>
+    <td><span class="code-text">&lt!DOCTYPE html&gt</span>
+    <td>Informs browser of the document type. Needed in the first line of the HTML page</td>
+  </tr>
+<p>
+  <tr>
+    <td>Language</td>
+    <td><span class="code-text">&lthtml lang="en"&gt</span></td>
+    <td>Informs the browser of the HTML page's language	</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>HTML</td>
+    <td><span class="code-text">&ltHTML&gt</span></td>
+    <td>All content within the page needs to be nestled within HTML tags</td>
+  </tr>
+<p>
+  <tr>
+    <td>Head</td>
+    <td><span class="code-text">&lthead&gt</span></td>
+    <td>All metadata and external links are nestled in the head tag</td>
+  </tr>
+<p>
+  <tr class="even">
+    <td>Title</td>
+    <td><span class="code-text">&lttitle&gt</span></td>
+    <td>The title that will show in a web browser tab</td>
+  </tr>
+<p>
+  <tr>
+    <td>Style</td>
+    <td><span class="code-text">&ltstyle&gt</span></td>
+    <td>Tag defines style (CSS) details for a page for a document<td>
+  </tr>
+<p>
+   <tr class="even">
+    <td>Body</td>
+    <td><span class="code-text">&ltbody&gt</span></td>
+    <td>All content is written within the body tag of an HTML doc</td>
+  </tr>
+<p>
+  <tr>
+    <td>Paragraph</td>
+    <td><span class="code-text">&ltp&gt</span></td>
+    <td>Defines a paragraph of text in HTML code</td>
+  </tr>
+<p>
+  <tr class="even">
+    <td> Heading </td>
+    <td><span class="code-text">&lth1&gt</span> to <span class="code-text">&lth6&gt</span></td>
+    <td>6 levels of HTML headings</td>
+  </tr>
+<p>
+  <tr>
+    <td>Comment</td>
+    <td><span class="code-text">&lt!-- Comment Here --&gt</span></td>
+    <td>Explains code but does not render to the page</td>
+  </tr>
+</tbody>
+  </table>
+      <hr>
+    </div>
+  </div>  
+<h4>Text Decoraton</h4>
+  <div class="fade-in">
+    <table class="center">
+<thead>
+  <tr>
+    <th>&nbspTag Name&nbsp</th>
+    <th>&nbspSemantic Tag&nbsp</th>
+    <th>&nbspDescription&nbsp</th>
+  </tr>
+</thead>	
+<tbody>
+   <tr>
+    <tr class="even">
+      <td>Bold</td>
+      <td><span class="code-text">&ltb&gt</span></td>
+      <td>Makes characters appear in <b>Bold</b></td>
+  </tr>
+<p>
+  <tr>
+    <td>Italic</td>
+    <td><span class="code-text">&lti&gt</span></td>
+    <td>Makes characters appear in <i>Italic</i></td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Subscript</td>
+    <td><span class="code-text">&ltsub&gt</span></td>
+    <td>Make characters appear Subscript, such as H<sub>2</sub>0</td>
+  </tr>
+<p>
+  <tr>
+    <td>Superscript</td>
+    <td><span class="code-text">&ltsup&gt</span></td>
+    <td>Make characters appear Superscript, such as 2<sup>2</sup></td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Emphasis</td>
+    <td><span class="code-text">&ltem&gt</span></td>
+    <td><em>Emphasizes</em> specfic text</td>
+  </tr> 
+ <p>
+  </div>
+<div class="fade-in">
+  <tr>
+    <td>Horizontal Line</td>
+    <td><span class="code-text">&lthr&gt</span></td>
+    <td>Applies a horizontal line to a document or element</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Underline</td>
+    <td><span class="code-text">&ltins&gt</span></td>
+    <td>Applies <ins>underline</ins> to text</td>
+  </tr>
+<p>
+  <tr>
+    <td>Strikethrough</td>
+    <td><span class="code-text">&lts&gt</span></td>
+    <td>Applies a line <s>through the center</s> to text</td>
+  </tr>
+  </tbody>
+    </table>  
+      </div>
+          <hr>
+        <h4>List Items</h4>
+      <div class="fade-in">
+    <table class="center">
+  <thead>
+    <tr>
+      <th>&nbspTag Name&nbsp</th>
+      <th>&nbspSemantic Tag&nbsp</th>
+      <th>&nbspDescription&nbsp</th>
+    </tr>
+</thead>	
+<tbody>
+  <tr class="even">
+    <td>Ordered List</td>
+    <td><span class="code-text">&ltol&gt</span></td>
+    <td>Creates an ordered list</td>
+  </tr>
+<p>
+  <tr>
+    <td>Unordered List</td>
+    <td><span class="code-text">&ltul&gt</span></td>
+    <td>Creates an unordered list</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>List items</td>
+    <td><span class="code-text">&ltli&gt</span></td>
+    <td>Each list item is placed between <span class="code-text">&ltli&gt</span> tag</td>
+  </tbody>
+    </table>  
+      </div>
+          <hr>
+        <h4> Content Placement </h4>
+      <div class="fade-in">
+    <table class="center">
+  <thead>
+    <tr>
+      <th>&nbspTag Name&nbsp</th>
+      <th>&nbspSemantic Tag&nbsp</th>
+      <th>&nbspDescription&nbsp</th>
+    </tr>
+  </thead>	
+  <tr>
+    <td>Main</td>
+    <td><span class="code-text">&ltmain&gt</span></td>
+    <td>Main content of a Page</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Section</td>
+    <td><span class="code-text">&ltsection&gt</span></td>
+    <td>Defines elements within a HTML page (chapters/headings)</td>
+  </tr>
+<p>
+  <tr>
+    <td>Navigation</td>
+    <td><span class="code-text">&ltnav&gt</span></td>
+    <td>Creates page navigational links</td>
+  </tr>
+ <p>
+  <tr>
+    <tr class="even">
+    <td>Aside</td>
+    <td><span class="code-text">&ltaside&gt</span></td>
+    <td>Applies additional information to content</td>
+  </tr>
+<p>
+  </div>
+<div class="fade-in">
+  <tr>
+    <td>Article</td>
+    <td><span class="code-text">&ltarticle&gt</span></td>
+    <td>Creates a section for standalone content (blogs/comments)</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Header</td>
+    <td><span class="code-text">&ltheader&gt</span></td>
+    <td>Includes content above the <span class="code-text">&ltbody&gt</span> as a heading</td>
+  </tr>
+ <p>
+  <tr>
+    <td>Footer</td>
+    <td><span class="code-text">&ltfooter&gt</span></td>
+    <td>Includes content underneath the <span class="code-text">&ltbody&gt</span> as a footer</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Span</td>
+    <td><span class="code-text">&ltspan&gt</span></td>
+    <td>Tag used to group within inline elements</td>
+  </tr>
+<p>
+  <tr>
+    <td>Line Break</td>
+    <td><span class="code-text">&ltbr&gt</span></td>
+    <td>Applies a line break to block</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Div</td>
+    <td><span class="code-text">&ltdiv&gt</span></td>
+    <td>Container for specific content within page</td>
+  </tr>
+</tbody>
+  </table>
+    </div>
+  <hr>
+<section id="tables">
+  <h3>tables</h3>
+    <div class="fade-in">
+      <table class="center">
+    <thead>
+  <tr>
+    <th>&nbspTag Name&nbsp</th>
+    <th>&nbspSemantic Tag&nbsp</th>
+    <th>&nbspDescription&nbsp</th>
+  </tr>
+</thead>
+<tbody>
+  <tr class="even">
+    <td>Table Heading</td>
+    <td><span class="code-text">&ltthead&gt</span></td>
+    <td>Table headings should sit inside an element</td>
+  </tr>
+ <p>
+  <tr>
+    <td>Table Body</td>
+    <td><span class="code-text">&lttbody&gt</span></td>
+    <td>Table body/content should sit inside an element</td>
+  </tr>
+<p>
+  <tr class="even">
+    <td>Table Footer</td>
+    <td><span class="code-text">&lttfoot&gt</span></td>
+    <td>Creates a footer for the table element</td>
+  </tr>	
+ <p>	
+  <tr>
+    <td>Table Row</td>
+    <td><span class="code-text">&lttr&gt</span></td>
+    <td>Indicates the start of each table row</td>
+  </tr>
+<p>
+   <tr class="even">
+    <td>Table Data</td>
+    <td><span class="code-text">&lttd&gt</span></td>
+    <td>Each cell of the table is represented with <span class="code-text">&lttd&gt</span>element</td>
+  </tr>
+<p>	
+  <tr>
+    <td>Table</td>
+    <td><span class="code-text">&lttable&gt</span></td>
+    <td>All contents of the table are written inside table elements</td>
+  </tr>
+    </tbody>
+      </table>
+        <hr>
+  </section>
+</div>
+<h3>Media</h3>
+  <div class="fade-in">
+    <selection id="media">   
+  <table class="center">
+<thead>
+  <tr>
+    <th>&nbspTag Name&nbsp</th>
+    <th>&nbspSemantic Tag&nbsp</th>
+    <th>&nbspDescription&nbsp</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <tr class="even">
+    <td>Video</td>
+    <td><span class="code-text">&ltvideo&gt</span></td>
+    <td>Adds Video Elements in HTML</td>
+  </tr>
+<p>
+  <tr>
+    <td>Audio</td>
+    <td><span class="code-text">&ltaudio&gt</span></td>
+    <td>Adds Audio Elements in HTML</td>
+  </tr> 
+<p>
+  <tr>
+    <tr class="even">
+    <td>Image</td>
+    <td><span class="code-text">&ltimg&gt</span></td>
+    <td>Adds an image in HTML</td>
+  </tr>	
+<p>	
+  <tr>
+    <td>Embed</td>
+    <td><span class="code-text">&ltembed&gt</span></td>
+    <td>Embeds media to HTML page</td>
+  <tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>Figure</td>
+    <td><span class="code-text">&ltfigure&gt</span></td>
+    <td>Embeds an image, diagram, or code example</td>
+  </tr>	
+<p>	
+  <tr>
+    <td>Figure Caption</td>
+    <td><span class="code-text">&ltfigcaption&gt</span></td>
+    <td>Adds a description to a figure</td>
+  </tr>
+</tbody>
+  </table>
+</div>
+  </div>  
+<hr>
+<div class="fade-in">
+    <section id="css">
+        <div class=image>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/85px-CSS3_logo_and_wordmark.svg.png" loading="lazy">
+        </div>
+        <div class="att">
+            <a href="https://commons.wikimedia.org/wiki/File:CSS.3.svg"target="_blank">Nikotaf</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons
+        </div>
+    </section>  
+  <table class="center">
+    <thead>
+      <tr>
+        <th>&nbspCSS Property&nbsp</th>
+        <th>&nbspDescription&nbsp</th>
+        <th>&nbspCSS Demo&nbsp</th>
+      </tr>
+    </tbody>
+  </thead>	
+<tbody>
+  <tr>
+    <tr class="even">
+    <td>font-family</td>
+    <td>Specifies font family names for specific elements</td>
+    <td>font-family: Georgia, serif;</td>
+  </tr>
+<p>
+  <tr>
+    <td>font-size</td>
+    <td>Sets the size of the font</td>
+    <td>font-size: 12px;</td>
+  </tr>
+<p>
+  <tr class="even">
+    <td>font-weight</td>
+    <td>Sets the weight/boldness of font</td>
+    <td>font-weight: normal;</td>
+  </tr>
+<p>
+  <tr>
+    <td>color</td>
+    <td>Sets the foreground color value of an element's text</td>
+    <td>color: orange;</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td>background-color</td>
+    <td>Sets the background color of an element</td>
+    <td>background-color: indigo;</td>
+  </tr>
+<p>
+  <tr>
+    <td>border</td>
+    <td>Sets an element's border</td>
+    <td>border: 2px dotted;</td>
+  </tr>
+ <p>
+  <tr>
+    <tr class="even">
+    <td>text-align</td>
+    <td>Sets the horizontal alignment of the text in an element</td>
+    <td>text-align: center;</td>
+  </tr>	
+<p>
+    <tr>
+    <td>margin</td>
+    <td>Sets the margin area on all sides of an element</td>
+    <td>margin: 13px;</td>
+  </tr>
+ <p>
+  <tr>
+    <tr class="even">
+    <td>Comment</td>
+    <td>Explains code but does not render to page</td>
+    <td> /* Comment Here */ </td>
+  </tr>
+</tbody>    
+  </table>
+</div>
+      <br>
+    <hr>
+  <br>
+<div class="fade-in">
+  <section id="template">
+    <div class="image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/HTML_logo.png/109px-HTML_logo.png?20130825144440" loading="lazy">
+    </div>
+  <div class="att">
+    <a href="https://commons.wikimedia.org/wiki/File:HTML_logo.png"target="_blank"> http://www.clker.com/clipart-html-logo.html</a>, CC0, via Wikimedia Commons
+  </div>
+  <table class="center">
+    <thead>
+      <p><b>HTML and CSS page template</b></p>
+    </thead>
+  <tbody>
+<tr>
+  <td>
+    &lt;!DOCTYPE html&gt;
+  <br>
+    &nbsp&lt;html lang="en"&gt;
+  <p>
+    &nbsp&nbsp&lt;head&gt;
+  <br>
+    &nbsp&nbsp&nbsp&lt;title&gt;Template&lt;/title&gt;
+  <br>
+    &nbsp&lt;style&gt;
+  <br>
+    Body {
+  <br>
+    background-color: blue;
+  <br>
+    color: black; 
+  <br>
+    font-family: Georgia, serif; }
+  <br>
+    &nbsp&lt;/style&gt;
+  <br>
+    &nbsp&nbsp&lt;/head&gt;
+  <p>
+    &nbsp&nbsp&nbsp&lt;body&gt;
+  <br>
+    &lt;h1&gt;Heading&lt;/h1&gt;
+   <br>
+    &nbsp&lt;p&gt;Content&lt;/p&gt;
+  <br>  
+    &nbsp&nbsp&nbsp&lt;/body&gt;
+  <p>
+    &lt;/html&gt;
+  </td>
+    </tr>
+      </tbody>
+    </table>
+ </section>
+</div>
+    <hr>
+  <h3> Pages to Bookmark!</h3>
+<div class="fade-in">
+  <section id="sites">
+    <div class=image>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/GitHub-Mark-64px.png?20201220123257" loading="lazy">
+    </div>	
+  <div class="att">
+    <a href="https://commons.wikimedia.org/wiki/File:Octicons-mark-github.svg"target="_blank">GitHub</a>, <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>, via Wikimedia Commons <br> 
+  </div>
+</div>
+  <div class="fade-in"> 
+    <table class="center">
+  <thead>
+<tr>
+    <th>&nbspWeb Reference&nbsp</th>
+    <th>&nbspDetails&nbsp</th>
+</tr>
+  </thead>	
+    <tbody>
+  <tr>
+    <tr class="even">
+    <td><a href="https://developer.mozilla.org/en-US/"target="_blank">Mozilla Developer Network (MDN)</a></td>
+    <td>Learning resource and repository for web developers</td>
+  </tr>
+<p>
+  <tr>
+    <td><a href="https://fonts.google.com/"target="_blank">Google Fonts</a></td>
+    <td>Free library of font families and web directory</td>
+  </tr>
+<p>
+  <tr>
+    <tr class="even">
+    <td><a href="https://github.com/"target="_blank">GitHub</a></td>
+     <td>Hosting and development service using GIT</td>
+  </tr>
+<p>
+  <tr>
+    <td><a href="https://stackoverflow.com/"target="_blank">stack overflow</a></td>
+    <td>Question and answer forum for programmers and developers</td>
+  </tr>
+<p>
+  <tr class="even">
+    <td><a href="https://www.w3schools.com/"target="_blank">W3Schools</a></td>
+    <td>Learning resource for web development and free HTML templates</td>
+  </tr>
+<p>
+  <tr>
+    <td><a href="https://www.freecodecamp.org/"target="_blank">freeCodeCamp</a></td>
+    <td> Resources for learning, forums, chat rooms, and publications</td>
+  </tr>
+<p>
+  <tr class="even">
+    <td><a href="https://www.codecademy.com/"target="_blank">Codecademy</a></td>
+    <td>Classes and forums for programming and web development</td>
+  </tr>
+</tbody>
+    </table>
+      </div>  
+  <script>
+  // Script for HEADER // 
+  const navHeader = document.querySelector('.nav-header');
+  const content = document.querySelector('.content');
+
+  const options = {
+    rootMargin: `-200px 0px 0px 0px`,
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        navHeader.classList.remove('nav-header-scrolled');
+      } else {
+        navHeader.classList.add('nav-header-scrolled');
+      }
+    });
+  }, options);
+  observer.observe(content);
+  </script>
+<script>
+// SCRIPT FOR FADE 
+const fadeIns = document.querySelectorAll('.fade-in');
+
+const appearOptions = {
+  threshold: 0.7,
+};
+
+const appearOnScroll = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio >= appearOptions.threshold) {
+      entry.target.style.opacity = .9;
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+}, appearOptions);
+
+fadeIns.forEach((fadein) => {
+  appearOnScroll.observe(fadein);
+});
+</script>
+  <hr>
+    <footer>
+      <div class="nav">
+          <ul id="link">
+            <li>|| <a class="footer" href="#land">Top of Page</a> |</li>
+            <li> Images from <a class="footer" a href="https://commons.wikimedia.org/wiki/Main_Page "target="_blank">Wikimedia Commons</a> and sourced in page | </li>
+            <li><a class="footer" a href="mailto:josh.michael.hill@gmail.com">Contact Me!</a> ||</li>
+          </ul>
+      </div>		
+  <div class="att">
+    <p>*Tab Icon from <a href="https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg"target="_blank">daPhyre</a>, <a href="https://creativecommons.org/licenses/by/3.0"target="_blank">CC BY 3.0</a>, via Wikimedia Commons</p>
+      </div>
+    </footer>
+  </body>
+</html>
